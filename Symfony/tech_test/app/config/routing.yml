@@ -1,0 +1,3 @@
+lc_tech_test:
+    resource: "@LCTech_testBundle/Resources/config/routing.yml"
+    prefix:   /
