@@ -1,0 +1,9 @@
+lc_tech_test_home:
+    path:    /
+    defaults:
+        _controller: LCTech_testBundle:Souscritoo:view
+
+lc_tech_test_souscritoo:
+    path:    /souscritoo
+    defaults:
+        _controller: LCTech_testBundle:Souscritoo:index

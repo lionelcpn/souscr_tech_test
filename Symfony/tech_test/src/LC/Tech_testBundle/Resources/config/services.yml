@@ -1,0 +1,4 @@
+services:
+#    lc_tech.test.example:
+#        class: LC\Tech_testBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
