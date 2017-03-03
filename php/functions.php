@@ -2,9 +2,9 @@
 
 function one_out_of_two($str)
 {
+    $concat = "";
     for ($i = 0; $i < strlen($str); $i++)
     {
-        $concat = "";
         if ($i % 2 == 0)
         {
             $concat = $concat . strtoupper($str[$i]);
@@ -13,8 +13,8 @@ function one_out_of_two($str)
         {
             $concat = $concat . $str[$i];
         }
-        return $concat;
     }
+    return $concat;
 }
 
 function is_isogram($str)
@@ -33,7 +33,7 @@ function is_isogram($str)
         {
             if ($str[$i] == $str[$j])
             {
-                echo "false";
+                return false;
             }
         }
         $i++;
